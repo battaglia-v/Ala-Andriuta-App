@@ -81,11 +81,11 @@ p {
 
 /* Title Image */
 .ala-img {
-  width: 62%;
+  width: 70%;
   transform: rotate(0);
   margin-left: 5%;
   position: absolute;
-  right: 10%;
+  right: 5%;
 
 }
 
