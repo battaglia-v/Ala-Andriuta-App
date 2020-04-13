@@ -81,7 +81,7 @@ p {
 
 /* Title Image */
 .ala-img {
-  width: 65%;
+  width: 80%;
   transform: rotate(0);
   margin-left: 5%;
   position: absolute;
@@ -89,16 +89,22 @@ p {
 
 }
 
-
+/* @media (min-width: 992px)
 .col-lg-6 {
       padding-bottom: 5%;
-    }
+    } */
 
 
 @media (max-width: 1028px) {
   #title {
     text-align: center;
   }
+
+  .ala-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
 
 
 /* Features */
@@ -114,12 +120,12 @@ p {
   padding: 4.5%
 }
 
-.icon {
+.fa-3x {
   color: #ff0028;
   margin-bottom: 1rem;
 }
 
-.icon:hover {
+.fa-3x:hover {
   color: #ffe01b;
 }
 
@@ -174,7 +180,7 @@ p {
 
 /* CTA Action */
 
-i.diamond {
+.diamond {
   padding: 5px 0;
 }
 
