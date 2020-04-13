@@ -74,17 +74,18 @@ p {
 
 /* Title Section */
 
-#title.container-fluid {
+/* #title.container-fluid {
   padding: 3% 15%;
   text-align: left;
 
-}
+} */
 
 
 .container-fluid-title {
-  padding: 7% 11%;
+  padding: 3% 15%;
   margin-bottom: 100px;
   display: inline-block;
+  text-align: left;
 }
 
 /* Title Image */
