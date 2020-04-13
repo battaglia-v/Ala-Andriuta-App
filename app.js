@@ -5,10 +5,15 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
+
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/", function (req, res) {
+  res.sendFile(__dirname + "/Ala_Andriuta/index.html");
+});
+
+app.get("/signup.html", function (req, res) {
   res.sendFile(__dirname + "/signup.html");
 });
 
@@ -68,7 +73,7 @@ app.post("/failure", function(req, res) {
   res.redirect("/");
 });
 
-app.listen(process.env.PORT || 3000, function(){
+app.listen(process.env.PORT || 2000, function(){
     console.log("The server is running on port 2000.");
 });
 
