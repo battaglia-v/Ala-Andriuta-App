@@ -74,10 +74,14 @@ p {
 
 /* Title Section */
 
-#title .container-fluid {
+#title.container-fluid {
   padding: 3% 15%;
   text-align: left;
+  margin-bottom: 100px;
+  display: inline-block;
 }
+
+
 
 /* Title Image */
 .ala-img {
