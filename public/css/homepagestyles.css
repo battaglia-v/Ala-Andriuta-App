@@ -36,7 +36,7 @@ p {
 
 /* Sections */
 .colored-section {
-  background-color: #ff4c68;
+  background-color: #ff0028;
   color: #fff;
 }
 
@@ -81,7 +81,7 @@ p {
 
 /* Title Image */
 .ala-img {
-  width: 62%;
+  width: 65%;
   transform: rotate(0);
   margin-left: 5%;
   position: absolute;
@@ -89,16 +89,17 @@ p {
 
 }
 
+
+.col-lg-6 {
+      padding-bottom: 5%;
+    }
+
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
   }
 
-  .ala-img {
-    position: static;
-    transform: rotate(0);
-  }
-}
 
 /* Features */
 #features {
@@ -114,18 +115,18 @@ p {
 }
 
 .icon {
-  color: #ef8172;
+  color: #ff0028;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #ffe01b;
 }
 
 
 /* Testimonials */
 #testimonials {
-  background-color: #ef8172;
+  background-color: #ff0028;
 }
 
 .testimonial-text {
@@ -141,7 +142,7 @@ p {
 
 /* Press */
 #press {
-  background-color: #ef8172;
+  background-color: #ff0028;
   padding-bottom: 3%;
 }
 
