@@ -1,5 +1,6 @@
 //jshint esversion:6
 const express = require("express");
+require('dotenv').config();
 const https = require("https");
 const bodyParser = require("body-parser");
 
@@ -42,7 +43,7 @@ app.post("/", function(req, res){
 
   const options = {
     method: "POST",
-    auth: "vincent1:36cbe1af9d45a218a19f2965d0b36f45-us19"
+    auth: process.env.MAILCHIMP_KEY
   };
 
 const request = https.request(url, options, function(response) {
