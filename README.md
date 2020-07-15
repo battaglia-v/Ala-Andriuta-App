@@ -14,14 +14,23 @@
 
 
 #### Subscriber page connected to MongoDB Atlas + ultimatley leading to the Mailchimp API:
-![](img/subscriberr.png)
+![](img/subscriber.png)
 
 
+
+
+
+
+
+
+
+#### Attributes to describe the professional:
+![](img/attributes.png)
 
 
 
 
 
 #### Displaying one's professional services in a fun, tiered approach that's traditionally used to reference tiered SaaS pricing:
-![](img/.png)
+![](img/pricing.png)
 
